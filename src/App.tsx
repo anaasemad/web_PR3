@@ -173,8 +173,8 @@ function Home({ onExplore, onContact }: { onExplore: () => void; onContact: () =
         <div className="max-w-7xl mx-auto px-12 relative z-10 w-full mt-12">
           <div className="max-w-4xl">
             <h1 className="text-6xl md:text-8xl font-black tracking-tight leading-none text-slate-900 mb-6 uppercase">
-              Ingeniería de <br />
-              <span className="text-slate-400">Precisión Industrial.</span>
+              Modular Automated <br />
+              <span className="text-slate-400"> Robotic System</span>
             </h1>
             <p className="text-xl text-slate-500 mb-12 leading-relaxed max-w-xl font-light">
               Optimizamos plantas industriales mediante sistemas de control avanzado y robótica de última generación para una eficiencia sin precedentes.
@@ -389,7 +389,7 @@ function Contact() {
         <div className="lg:col-span-5 space-y-12">
           <div className="space-y-4">
             <h4 className="text-xs font-bold uppercase tracking-[0.2em] text-slate-400">Oficina Central</h4>
-            <p className="text-slate-600 text-sm font-light leading-relaxed"> Edificios 1G - 1E - 1H, Camí de Vera, s/n, Algirós, Valencia, España</p>
+            <p className="text-slate-600 text-sm font-light leading-relaxed"> Edificios 1G - 1E - 1H, Camí de Vera, s/n, Algirós,  Valencia, España</p>
           </div>
           <div className="space-y-4">
             <h4 className="text-xs font-bold uppercase tracking-[0.2em] text-slate-400">Canal Directo</h4>
