@@ -1,0 +1,6 @@
+{
+  "name": "MARS Industrial Automation",
+  "description": "Expert industrial plant automation solutions specializing in intelligent warehouses and assembly line robotics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
