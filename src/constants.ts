@@ -1,4 +1,6 @@
 import { Project, Review } from './types';
+import stockitImg from './assets/images/stockit_ur5_implementation.png';
+import laptopImg from './assets/images/laptop_assembly_1779103444487.png';
 
 export const PROJECTS: Project[] = [
   {
@@ -7,7 +9,7 @@ export const PROJECTS: Project[] = [
     client: 'Logistics Core Inc.',
     description: 'Implementación integral de un sistema de gestión de almacenes inteligente. Automatización completa mediante Robots Antropomórficos',
     fullDescription: 'StockIt representa la culminación de la logística autónoma. El proyecto consistió en la transformación de un centro de distribución de 15,000m² en un ecosistema totalmente automatizado. Integramos un UR5 sobre un carril movil, coordinado con una base de datos y un sistema de gestión de pedidos para que, de esta forma, el almacenaje y recogida de stock fuese de una forma eficiente y dinámico.',
-    image: '/src/assets/images/stockit_ur5_implementation.png',
+    image: stockitImg,
     tags: ['Cobots', 'UR5', 'Mobile Rail', 'Logística Inteligente'],
     features: [
       'Cobots UR5 de alta precisión sobre eje lineal móvil',
@@ -27,7 +29,7 @@ export const PROJECTS: Project[] = [
     client: 'TechNova Manufacturing',
     description: 'Automatización de la planta de ensamblaje de portátiles con sistema dual para modelos estándar y gaming.',
     fullDescription: 'La línea de TechNova es un hito en la fabricación de portatiles. Diseñamos un sistema de creación de kits individuales y personalizados para cada modelo y su posterior ensamblaje lineal mediante robots antropomórficos. Esto permite una producción mixta sin interrupciones.',
-    image: './src/assets/images/laptop_assembly_1779103444487.png',
+    image: laptopImg,
     tags: ['Robótica Colaborativa', 'Visión Artificial', 'Multi-model'],
     features: [
       'Células de trabajo con Universal Robots',
