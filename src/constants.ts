@@ -27,7 +27,7 @@ export const PROJECTS: Project[] = [
     client: 'TechNova Manufacturing',
     description: 'Automatización de la planta de ensamblaje de portátiles con sistema dual para modelos estándar y gaming.',
     fullDescription: 'La línea de TechNova es un hito en la fabricación de portatiles. Diseñamos un sistema de creación de kits individuales y personalizados para cada modelo y su posterior ensamblaje lineal mediante robots antropomórficos. Esto permite una producción mixta sin interrupciones.',
-    image: '/src/assets/images/laptop_assembly_1779103444487.png',
+    image: './src/assets/images/laptop_assembly_1779103444487.png',
     tags: ['Robótica Colaborativa', 'Visión Artificial', 'Multi-model'],
     features: [
       'Células de trabajo con Universal Robots',
