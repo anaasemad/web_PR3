@@ -13,6 +13,9 @@ export const PROJECTS: Project[] = [
     description: 'Implementación integral de un sistema de gestión de almacenes inteligente. Automatización completa mediante Robots Antropomórficos',
     fullDescription: 'StockIt representa la culminación de la logística autónoma. El proyecto consistió en la transformación de un centro de distribución de 15,000m² en un ecosistema totalmente automatizado. Integramos un UR5 sobre un carril movil, coordinado con una base de datos y un sistema de gestión de pedidos para que, de esta forma, el almacenaje y recogida de stock fuese de una forma eficiente y dinámico.',
     image: stockitImg,
+    images: [
+      stockitImg
+    ],
     tags: ['Cobots', 'UR5', 'Mobile Rail', 'Logística Inteligente'],
     features: [
       'Cobots UR5 de alta precisión sobre eje lineal móvil',
