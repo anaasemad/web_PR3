@@ -4,6 +4,7 @@
  */
 
 import React, { useState, useEffect, FormEvent } from 'react';
+import ImageCarousel from './components/ImageCarousel';
 import { motion, AnimatePresence } from 'motion/react';
 import { 
   Cpu, 
@@ -296,8 +297,8 @@ function ProjectDetail({ project, onBack }: { project: Project; onBack: () => vo
         </div>
 
         <div className="lg:col-span-7">
-          <div className="aspect-video w-full bg-slate-100 mb-12 overflow-hidden border border-slate-100">
-            <img src={project.image} alt={project.title} className="w-full h-full object-cover" />
+            <div className="mb-12">
+              <ImageCarousel images={project.images} title={project.title} />
           </div>
           
           <div className="space-y-8">
