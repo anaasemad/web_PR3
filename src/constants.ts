@@ -1,9 +1,9 @@
 import { Project, Review } from './types';
 import stockitImg from './assets/images/stockit_ur5_implementation.png';
-import laptopImg1 from './assets/images/carrusel1.jpeg';
-import laptopImg2 from './assets/images/carrusel2.jpeg';
-import laptopImg3 from './assets/images/carrusel3.jpeg';
-import laptopImg4 from './assets/images/carrusel4.jpeg'; 
+import laptopImg1 from './assets/images/carrusel1.png';
+import laptopImg2 from './assets/images/carrusel2.png';
+import laptopImg3 from './assets/images/carrusel3.png';
+import laptopImg4 from './assets/images/carrusel4.png'; 
 
 export const PROJECTS: Project[] = [
   {
