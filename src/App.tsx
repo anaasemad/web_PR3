@@ -4,7 +4,7 @@
  */
 
 import React, { useState, useEffect, FormEvent } from 'react';
-import ImageCarousel from './components/ImageCarousel';
+import ImageCarousel from './components/ImagenCarrusl';
 import { motion, AnimatePresence } from 'motion/react';
 import { 
   Cpu, 
